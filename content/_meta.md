@@ -1,6 +1,6 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/profile_pic.jpeg
+Tagline: Marcus Pettersson Portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/mapg23/portfolio/
