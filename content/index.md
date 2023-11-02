@@ -3,9 +3,11 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Marcus Pettersson
 ==========================
+![alt text](%assets_url%/img/profile_pic.jpeg "Bild som representerar mig")
 
-Welcome to the home page of my portfolio.
-My name is Marcus Pettersson and im a student at BTH, currently studying to becoming an webb programmer.
-This page is written in markdown with some frontmatter defined
+Välkomen till hem-sidan av mitt portfolio.
+Jag heter Marcus Pettersson och är student på bth. Jag studerar för att bli web programmerare.
+Detta portfolio är för kursen design som jag går.
+
