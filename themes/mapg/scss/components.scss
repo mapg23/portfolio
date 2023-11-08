@@ -1,0 +1,48 @@
+.nav {
+    a {
+        color: $green-text;
+        text-decoration: none;
+    }
+
+    a:hover {
+        border-bottom: 4px solid $green-text;
+    }
+}
+
+.main {
+    flex: 1 0 auto;
+
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 1rem;
+
+    border: 2px solid black;
+    background-color: $foreground-color;
+    color: white ;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+
+    padding: 1rem 1rem;
+
+
+    a {
+        color: $green-text;
+    }
+
+    a:hover{
+        color: rgba(62,234,191);
+    }
+
+    p {
+        color: $green-text;
+    }
+
+    .social {
+        font-size: 2rem;
+    }
+}

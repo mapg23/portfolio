@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+
+    overflow: auto;
+}
+
+
+.header, .footer {
+    flex: 0 0 auto;
+    overflow: auto;
+
+    background-color: $foreground-color;
+}
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    box-shadow: $green-text;
+    border-bottom: 2px solid $green-text;
+}
+
+.title, .logo {
+    padding: .5em .5em .5em 1em;
+}
+
+.logo {
+    max-width: 25%;
+    mix-blend-mode: multiply;
+}
+
+.title {
+    * {
+        color: $green-text;
+    }
+
+    p {
+        font-style: italic;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: .2em .2em .2em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
+}
