@@ -1,4 +1,16 @@
 @import '../../node_modules/normalize.css/normalize';
+
+// font-awesome
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+// google-fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Zilla+Slab&display=swap');
+
+
 @import 'variables';
 @import 'base';
 @import 'typografy';
