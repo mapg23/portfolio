@@ -6426,6 +6426,10 @@ html, body {
   height: 100%;
 }
 
+a {
+  color: #0C9;
+}
+
 .hidden {
   display: none !important;
 }
@@ -6518,13 +6522,14 @@ code {
   font-size: 0.85rem;
   line-height: 1.9824;
   color: #0C9;
+  background-color: #3a3a3a;
 }
 
 pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background-color: #3a3a3a;
 }
 
 pre code {
@@ -6572,4 +6577,65 @@ pre code {
 }
 .footer .social {
   font-size: 2rem;
+}
+
+.landingpage {
+  display: grid;
+  gap: 1rem 2rem;
+}
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+.landingpage a {
+  color: #0C9;
+  text-decoration: none;
+}
+.landingpage a:hover {
+  color: #3eeabf;
+  border-bottom: 2px solid #3eeabf;
+}
+.landingpage .tech-box {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+.landingpage .span-2 {
+  grid-column: span 2;
+}
+.landingpage .span-3 {
+  grid-column: span 3;
+}
+
+.single-technology {
+  display: flex;
+  flex-direction: row;
+}
+.single-technology .menu {
+  padding: 1rem;
+}
+.single-technology .menu a {
+  text-decoration: none;
+}
+.single-technology .menu a:hover {
+  color: #3eeabf;
+  border-bottom: 2px solid #3eeabf;
+}
+.single-technology .tech-content {
+  padding: 1rem;
+}
+
+@media (max-width: 767px) {
+  .landingpage {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .landingpage .tech-box, .landingpage h1 {
+    grid-column: span 1;
+  }
+  .menu {
+    display: none;
+  }
+  .tech-content > pre {
+    white-space: normal;
+  }
 }
