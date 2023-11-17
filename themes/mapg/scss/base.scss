@@ -58,14 +58,15 @@ body {
 
 @media (max-width: 767px) {
     .title, .logo {
-        padding: .2em .2em .2em 0;
+        padding: .2em;
     }
 
-    .title {
-        min-width: 50%;
+    .title * {
+        text-align: center;
     }
     
     .logo {
-        max-width: 30%;
+        // max-width: 30%;
+        display: none;
     }
 }

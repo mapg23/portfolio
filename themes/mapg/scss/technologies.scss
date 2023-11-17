@@ -12,10 +12,11 @@
         color: $green-text;
         text-decoration: none;
 
-        &:hover {
-            color: $green-hover;
-            border-bottom: 2px solid $green-hover;
-        }
+    }
+    
+    a:hover {
+        color: $green-hover;
+        border-bottom: 2px solid $green-hover;
     }
 
     .tech-box {
@@ -32,33 +33,32 @@
     }
 }
 
-
 .single-technology {
-
     display: flex;
-    flex-direction: row;
-    
-    .menu {
-        padding: 1rem;
+    flex-direction: row;   
+}
 
-        a {
-            text-decoration: none;
-            
-            &:hover{
-                color: $green-hover;
-                border-bottom: 2px solid $green-hover;
-            }
-        }
+.single-technology .menu {
+    padding: 1rem;
+    
+    a {
+        text-decoration: none;
+        
     }
     
-    .tech-content {
-        padding: 1rem;
-        // word-wrap: break-word;
+    a:hover{
+        color: $green-hover;
+        border-bottom: 2px solid $green-hover;
     }
 }
 
-@media (max-width: 767px)  {
+.single-technology .tech-content {
+    h1 {
+        color: $green-text;
+    }    
+}
 
+@media (max-width: 767px)  {
     .landingpage {
         display: grid;
         grid-template-columns: 1fr;
@@ -70,9 +70,5 @@
     
     .menu {
         display: none;
-    }
-    
-    .tech-content > pre {
-        white-space: normal;
     }
 }

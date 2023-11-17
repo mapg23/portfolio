@@ -6475,13 +6475,13 @@ body {
 
 @media (max-width: 767px) {
   .title, .logo {
-    padding: 0.2em 0.2em 0.2em 0;
+    padding: 0.2em;
   }
-  .title {
-    min-width: 50%;
+  .title * {
+    text-align: center;
   }
   .logo {
-    max-width: 30%;
+    display: none;
   }
 }
 body {
@@ -6562,6 +6562,7 @@ pre code {
 
 .footer {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   border-top: 1px solid #222;
   padding: 1rem;
@@ -6610,6 +6611,7 @@ pre code {
   display: flex;
   flex-direction: row;
 }
+
 .single-technology .menu {
   padding: 1rem;
 }
@@ -6620,8 +6622,9 @@ pre code {
   color: #3eeabf;
   border-bottom: 2px solid #3eeabf;
 }
-.single-technology .tech-content {
-  padding: 1rem;
+
+.single-technology .tech-content h1 {
+  color: #0C9;
 }
 
 @media (max-width: 767px) {
@@ -6634,8 +6637,5 @@ pre code {
   }
   .menu {
     display: none;
-  }
-  .tech-content > pre {
-    white-space: normal;
   }
 }

@@ -3,7 +3,7 @@
         color: $green-text;
         text-decoration: none;
     }
-
+    
     a:hover {
         border-bottom: 4px solid $green-text;
     }
@@ -24,7 +24,9 @@
 .footer {
 
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    
     border-top: 1px solid #222;
 
     padding: 1rem;
@@ -32,12 +34,13 @@
 
     a {
         color: $green-text;
-    }
 
-    a:hover{
+    }
+    
+    a:hover {
         color: $green-hover;
     }
-
+    
     p {
         color: $green-text;
     }
