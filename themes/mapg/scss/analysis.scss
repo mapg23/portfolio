@@ -3,6 +3,7 @@
     display: grid;
     gap: 1rem 2rem;
 
+    text-align: center;
     h1 {
         grid-column: span 3;
         justify-self: center;
@@ -33,30 +34,21 @@
     }
 }
 
-.single-technology {
-    display: flex;
-    flex-direction: row;   
-}
+.analysis-content{
+    // h1 {
+    //     color: red;
+    // }
 
-.single-technology .menu {
-    padding: 1rem;
-    
+
     a {
-        text-decoration: none;
-        
+        color: $link-color;
     }
-    
-    a:hover{
+
+    a:hover {
         color: $link-color-hover;
-        border-bottom: 2px solid $link-color-hover;
     }
 }
 
-.single-technology .tech-content {
-    h1 {
-        color: $link-color;
-    }    
-}
 
 @media (max-width: 767px)  {
     .landingpage {

@@ -3,7 +3,7 @@ html, body {
 }
 
 a {
-    color: $green-text;
+    color: $link-color;
 }
 
 .hidden {
@@ -32,8 +32,8 @@ body {
 }
 
 .header {
-    box-shadow: $green-text;
-    border-bottom: 2px solid $green-text;
+    box-shadow: $link-color;
+    border-bottom: 2px solid $border-color;
 }
 
 .title, .logo {
@@ -47,7 +47,7 @@ body {
 
 .title {
     * {
-        color: $green-text;
+        color: $link-color;
     }
 
     p {

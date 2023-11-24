@@ -1,11 +1,11 @@
 .nav {
     a {
-        color: $green-text;
+        color: $link-color;
         text-decoration: none;
     }
     
     a:hover {
-        border-bottom: 4px solid $green-text;
+        border-bottom: 4px solid $link-color;
     }
 }
 
@@ -18,7 +18,24 @@
 
     border: 2px solid $black;
     background-color: $foreground-color;
-    color: $white ;
+    color: $white;
+
+    h1, h2, h3, h4{
+        color: $headlines-color;
+    }
+
+    p {
+        color: $text-color;
+    }
+
+    /*
+    * Docs page, text-color
+    */
+    ul > li,
+    ol > li,
+    table {
+        color: $text-color;
+    }
 }
 
 .footer {
@@ -27,25 +44,28 @@
     align-items: center;
     justify-content: space-between;
     
-    border-top: 1px solid #222;
+    border-top: 1px solid $border-color;
 
     padding: 1rem;
 
-
     a {
-        color: $green-text;
+        color: $link-color;
 
     }
     
     a:hover {
-        color: $green-hover;
+        color: $link-color-hover;
     }
     
     p {
-        color: $green-text;
+        color: $link-color;
     }
 
     .social {
         font-size: 2rem;
+
+        a {
+            display: inline-block;
+        }
     }
 }
