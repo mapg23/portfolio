@@ -2,8 +2,8 @@
 .landingpage {
     display: grid;
     gap: 1rem 2rem;
-
     text-align: center;
+
     h1 {
         grid-column: span 3;
         justify-self: center;
@@ -35,11 +35,6 @@
 }
 
 .analysis-content{
-    // h1 {
-    //     color: red;
-    // }
-
-
     a {
         color: $link-color;
     }
