@@ -6427,7 +6427,7 @@ html, body {
 }
 
 a {
-  color: #000;
+  color: #0C9;
 }
 
 .hidden {
@@ -6437,14 +6437,14 @@ a {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #f4f4f4;
+  background-color: #202020;
   overflow: auto;
 }
 
 .header, .footer {
   flex: 0 0 auto;
   overflow: auto;
-  background-color: #fbfbfb;
+  background-color: #3a3a3a;
 }
 
 .header, .site-header {
@@ -6453,8 +6453,8 @@ body {
 }
 
 .header {
-  box-shadow: #000;
-  border-bottom: 2px solid #f9f9f9;
+  box-shadow: #0C9;
+  border-bottom: 2px solid #222;
 }
 
 .title, .logo {
@@ -6467,7 +6467,7 @@ body {
 }
 
 .title * {
-  color: #000;
+  color: #0C9;
 }
 .title p {
   font-style: italic;
@@ -6521,16 +6521,16 @@ code {
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
-  color: #000;
-  background-color: #fbfbfb;
+  color: #0C9;
+  background-color: #3a3a3a;
 }
 
 pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background-color: #fbfbfb;
-  color: #000;
+  background-color: #3a3a3a;
+  color: #0C9;
 }
 
 pre code {
@@ -6544,11 +6544,11 @@ pre code {
 }
 
 .nav a {
-  color: #000;
+  color: #0C9;
   text-decoration: none;
 }
 .nav a:hover {
-  border-bottom: 4px solid #000;
+  border-bottom: 4px solid #0C9;
 }
 
 .main {
@@ -6557,39 +6557,39 @@ pre code {
   margin: 1rem auto;
   padding: 1rem;
   border: 2px solid rgba(0, 0, 0, 0);
-  background-color: #fbfbfb;
+  background-color: #3a3a3a;
   color: white;
   /*
   * Docs page, text-color
   */
 }
 .main h1, .main h2, .main h3, .main h4 {
-  color: #000;
+  color: white;
 }
 .main p {
-  color: #313131;
+  color: #e2e1e1;
 }
 .main ul > li,
 .main ol > li,
 .main table {
-  color: #313131;
+  color: #e2e1e1;
 }
 
 .footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #f9f9f9;
+  border-top: 1px solid #222;
   padding: 1rem;
 }
 .footer a {
-  color: #000;
+  color: #0C9;
 }
 .footer a:hover {
-  color: #979797;
+  color: #3eeabf;
 }
 .footer p {
-  color: #000;
+  color: #0C9;
 }
 .footer .social {
   font-size: 2rem;
@@ -6611,12 +6611,12 @@ pre code {
   justify-self: center;
 }
 .landingpage a {
-  color: #000;
+  color: #0C9;
   text-decoration: none;
 }
 .landingpage a:hover {
-  color: #979797;
-  border-bottom: 2px solid #979797;
+  color: #3eeabf;
+  border-bottom: 2px solid #3eeabf;
 }
 .landingpage .tech-box {
   border: 1px solid #ccc;
@@ -6641,12 +6641,12 @@ pre code {
   text-decoration: none;
 }
 .single-technology .menu a:hover {
-  color: #979797;
-  border-bottom: 2px solid #979797;
+  color: #3eeabf;
+  border-bottom: 2px solid #3eeabf;
 }
 
 .single-technology .tech-content h1 {
-  color: #000;
+  color: #0C9;
 }
 
 @media (max-width: 767px) {
@@ -6671,12 +6671,12 @@ pre code {
   justify-self: center;
 }
 .landingpage a {
-  color: #000;
+  color: #0C9;
   text-decoration: none;
 }
 .landingpage a:hover {
-  color: #979797;
-  border-bottom: 2px solid #979797;
+  color: #3eeabf;
+  border-bottom: 2px solid #3eeabf;
 }
 .landingpage .tech-box {
   border: 1px solid #ccc;
@@ -6690,10 +6690,10 @@ pre code {
 }
 
 .analysis-content a {
-  color: #000;
+  color: #0C9;
 }
 .analysis-content a:hover {
-  color: #979797;
+  color: #3eeabf;
 }
 
 @media (max-width: 767px) {

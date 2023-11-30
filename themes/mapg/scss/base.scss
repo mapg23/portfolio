@@ -2,6 +2,10 @@ html, body {
     height: 100%;
 }
 
+img, embed, object, video {
+    max-width: 100%;
+}
+
 a {
     color: $link-color;
 }
