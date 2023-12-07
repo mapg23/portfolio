@@ -28,6 +28,11 @@
         color: $text-color;
     }
 
+
+    p > img {
+        border: 8px solid $background-color;
+    }
+
     /*
     * Docs page, text-color
     */

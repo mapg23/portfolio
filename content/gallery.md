@@ -81,5 +81,5 @@ template: gallery
 </div>
 
 <div class="gallery-video">
-<iframe src="https://www.youtube.com/embed/vlVSJ0AvZe0?si=il_TftX8-ZAjCWBH" frameborder="0" allowfullscreen></iframe>
+<iframe title="youtube-video" src="https://www.youtube.com/embed/vlVSJ0AvZe0?si=il_TftX8-ZAjCWBH" frameborder="0" allowfullscreen></iframe>
 </div>

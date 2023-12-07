@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="sv">
 
 <head>
     <meta charset="utf-8" />
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="{{ theme_url }}/css/mobile-menu.css" type="text/css" />
     <link rel="stylesheet" href="{{ theme_url }}/css/style.min .css" type="text/css" />
 
-    {% if config.session.theme == "dark" %}
+    {% if config.session.theme != "dark" %}
         <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
     {% else %}
         <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />

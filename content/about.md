@@ -6,6 +6,9 @@ Description: About the website page.
 About
 ==========================
 
+<hr>
+
+
 Den här hemsidan är uppbyggd med hjälp av ett par olika språk och ramverk.
 
 Markdown är ett markup språk som används för att skriva allt innehåll på hemsidan.

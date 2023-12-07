@@ -8,7 +8,6 @@ Template: analysis
 Analysis
 ==========================
 
-
 <div class="tech-box span-3">
     <h1> <a href="%base_url%?analysis/01_colors"> Colors </a> </h1>
 </div>
